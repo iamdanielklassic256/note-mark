@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  #root {
+    @apply h-full;
+  }
+
+  html,
+  body {
+    @apply h-full select-none bg-transparent font-mono antialiased text-white overflow-hidden
+  }
+  
+  header {
+    -webkit-app-region: drag;
+  }
+  button {
+    -webkit-app-region: drag;
+  }
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-[#555];
+  }
+  ::-webkit-scrollbar-track {
+     @apply bg-transparent
+  }
+
+}  

@@ -1,0 +1,13 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.organizeImports": "always"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "vscode.configuration-editing",
+  "editor.wordWrap": "on",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  
+}
